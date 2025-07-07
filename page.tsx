@@ -1,7 +1,10 @@
-"use client"
+'use client';
 
-import FeedbackAnalysis from "../feedback-analysis"
+import React from 'react';
+import FeedbackAnalysis from '../feedback-analysis';
 
-export default function Page() {
-  return <FeedbackAnalysis />
-}
+const Page: React.FC = () => {
+  return <FeedbackAnalysis />;
+};
+
+export default Page;
